@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  #container {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+  
+  .grid-item {
+    padding: 30px;
+  }
+  
+  .btn {
+    
+    padding: 11px 23px;
+    margin: 0px 0px;
+      border-radius: 29px;
+      height: 45px;
+      width: 200px;
+      color: white;
+      background: royalblue;
+      border: none;
+    
+  }
+  .btn:hover{
+    background: #3c57aa;
+  }
+  .text{
+    background: #cdcdcd;
+  ;
+    height: 18px;
+    width: 200px;
+    padding: 11px 23px;
+    margin: 0px 0px;
+  }
+  .heading{
+    text-align: center;
+  }
+  #input{
+    height: 10px;
+    width: 198px;
+    padding: 11px 23px;
+    margin: 0px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  #label{
+    /* height: 18px;
+    width: 200px; */
+    padding: 11px 23px;
+    margin: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  #numtaker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
